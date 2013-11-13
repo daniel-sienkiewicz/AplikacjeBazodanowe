@@ -1,0 +1,2 @@
+gcc -o connect pr1.c -I /usr/include/postgresql -L /usr/local/pgsql/lib -lpq
+

@@ -1,0 +1,10 @@
+<HTML><HEAD></HEAD><BODY>
+<table align=center><caption align="top">Cars list</caption>
+<tr><th align="right">id_car</th><th align="left">make</th><th align="left">model</th><th align="right">price</th><th align="right">capacity</th><th align="right">yop</th></tr>
+<tr><td align="right">1</td><td align="left">Audi</td><td align="left">80</td><td align="right">6000.00</td><td align="right">1.8</td><td align="right">1991-05-04</td></tr>
+<tr><td align="right">2</td><td align="left">Volkswagen</td><td align="left">Sharan</td><td align="right">8000.00</td><td align="right">2.0</td><td align="right">1997-03-16</td></tr>
+<tr><td align="right">3</td><td align="left">Audi</td><td align="left">A3</td><td align="right">10000.00</td><td align="right">1.6</td><td align="right">1997-12-25</td></tr>
+<tr><td align="right">4</td><td align="left">Seat</td><td align="left">Ibiza</td><td align="right">6000.00</td><td align="right">1.9</td><td align="right">2001-09-01</td></tr>
+<tr><td align="right">5</td><td align="left">Renault</td><td align="left">Megane</td><td align="right">15000.00</td><td align="right">2.2</td><td align="right">2006-02-10</td></tr>
+</table>
+</BODY></HTML
