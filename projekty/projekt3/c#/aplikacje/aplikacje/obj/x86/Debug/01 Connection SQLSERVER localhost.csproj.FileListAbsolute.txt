@@ -1,0 +1,24 @@
+C:\Documents and Settings\fidytek\Ustawienia lokalne\Dane aplikacji\Temporary Projects\przyklady_ADO_NET\bin\Debug\przyklady_ADO_NET.exe
+C:\Documents and Settings\fidytek\Ustawienia lokalne\Dane aplikacji\Temporary Projects\przyklady_ADO_NET\bin\Debug\przyklady_ADO_NET.pdb
+C:\Documents and Settings\fidytek\Ustawienia lokalne\Dane aplikacji\Temporary Projects\przyklady_ADO_NET\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\fidytek\Ustawienia lokalne\Dane aplikacji\Temporary Projects\przyklady_ADO_NET\obj\x86\Debug\przyklady_ADO_NET.exe
+C:\Documents and Settings\fidytek\Ustawienia lokalne\Dane aplikacji\Temporary Projects\przyklady_ADO_NET\obj\x86\Debug\przyklady_ADO_NET.pdb
+D:\_ZAJECIA_DYDAKTYCZNE\_UG_aplikacje_bazodanowe_wyklad_2011_2012\abd_08_09_ADO.NET\przyklady2\przyklady_ado_net\01 Connection SQLSERVER localhost\bin\Debug\01 Connection SQLSERVER localhost.exe
+D:\_ZAJECIA_DYDAKTYCZNE\_UG_aplikacje_bazodanowe_wyklad_2011_2012\abd_08_09_ADO.NET\przyklady2\przyklady_ado_net\01 Connection SQLSERVER localhost\bin\Debug\01 Connection SQLSERVER localhost.pdb
+D:\_ZAJECIA_DYDAKTYCZNE\_UG_aplikacje_bazodanowe_wyklad_2011_2012\abd_08_09_ADO.NET\przyklady2\przyklady_ado_net\01 Connection SQLSERVER localhost\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\_ZAJECIA_DYDAKTYCZNE\_UG_aplikacje_bazodanowe_wyklad_2011_2012\abd_08_09_ADO.NET\przyklady2\przyklady_ado_net\01 Connection SQLSERVER localhost\obj\x86\Debug\01 Connection SQLSERVER localhost.exe
+D:\_ZAJECIA_DYDAKTYCZNE\_UG_aplikacje_bazodanowe_wyklad_2011_2012\abd_08_09_ADO.NET\przyklady2\przyklady_ado_net\01 Connection SQLSERVER localhost\obj\x86\Debug\01 Connection SQLSERVER localhost.pdb
+D:\_ZAJECIA_DYDAKTYCZNE\_UG_aplikacje_bazodanowe_wyklad_2011_2012\abd_08_09_ADO.NET\przyklady2\przyklady_ado_net\02przyklad\01 Connection SQLSERVER localhost\obj\x86\Debug\01 Connection SQLSERVER localhost.exe
+D:\_ZAJECIA_DYDAKTYCZNE\_UG_aplikacje_bazodanowe_wyklad_2011_2012\abd_08_09_ADO.NET\przyklady2\przyklady_ado_net\02przyklad\01 Connection SQLSERVER localhost\obj\x86\Debug\01 Connection SQLSERVER localhost.pdb
+D:\_ZAJECIA_DYDAKTYCZNE\_UG_aplikacje_bazodanowe_wyklad_2011_2012\abd_08_09_ADO.NET\przyklady2\przyklady_ado_net\02przyklad\01 Connection SQLSERVER localhost\bin\Debug\01 Connection SQLSERVER localhost.exe
+D:\_ZAJECIA_DYDAKTYCZNE\_UG_aplikacje_bazodanowe_wyklad_2011_2012\abd_08_09_ADO.NET\przyklady2\przyklady_ado_net\02przyklad\01 Connection SQLSERVER localhost\bin\Debug\01 Connection SQLSERVER localhost.pdb
+D:\_ZAJECIA_DYDAKTYCZNE\_UG_aplikacje_bazodanowe_wyklad_2011_2012\abd_08_09_ADO.NET\przyklady2\przyklady_ado_net\02przyklad\01 Connection SQLSERVER localhost\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\_ZAJECIA_DYDAKTYCZNE\_UG_aplikacje_bazodanowe_wyklad_2011_2012\abd_08_09_ADO.NET\przyklady2\przyklady_ado_net\02przyklad Connection SQLSERVER try\01 Connection SQLSERVER localhost\obj\x86\Debug\01 Connection SQLSERVER localhost.exe
+D:\_ZAJECIA_DYDAKTYCZNE\_UG_aplikacje_bazodanowe_wyklad_2011_2012\abd_08_09_ADO.NET\przyklady2\przyklady_ado_net\02przyklad Connection SQLSERVER try\01 Connection SQLSERVER localhost\obj\x86\Debug\01 Connection SQLSERVER localhost.pdb
+D:\_ZAJECIA_DYDAKTYCZNE\_UG_aplikacje_bazodanowe_wyklad_2011_2012\abd_08_09_ADO.NET\przyklady2\przyklady_ado_net\02przyklad Connection SQLSERVER try\01 Connection SQLSERVER localhost\bin\Debug\01 Connection SQLSERVER localhost.exe
+D:\_ZAJECIA_DYDAKTYCZNE\_UG_aplikacje_bazodanowe_wyklad_2011_2012\abd_08_09_ADO.NET\przyklady2\przyklady_ado_net\02przyklad Connection SQLSERVER try\01 Connection SQLSERVER localhost\bin\Debug\01 Connection SQLSERVER localhost.pdb
+D:\_ZAJECIA_DYDAKTYCZNE\_UG_aplikacje_bazodanowe_wyklad_2011_2012\abd_08_09_ADO.NET\przyklady2\przyklady_ado_net\02przyklad Connection SQLSERVER try\01 Connection SQLSERVER localhost\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\_ZAJECIA_DYDAKTYCZNE\_UG_aplikacje_bazodanowe_wyklad_2011_2012\abd_08_09_ADO.NET\przyklady2\przyklady_ado_net\02przyklad Connection try\01 Connection SQLSERVER localhost\obj\x86\Debug\01 Connection SQLSERVER localhost.exe
+D:\_ZAJECIA_DYDAKTYCZNE\_UG_aplikacje_bazodanowe_wyklad_2011_2012\abd_08_09_ADO.NET\przyklady2\przyklady_ado_net\02przyklad Connection try\01 Connection SQLSERVER localhost\obj\x86\Debug\01 Connection SQLSERVER localhost.pdb
+D:\_ZAJECIA_DYDAKTYCZNE\_UG_aplikacje_bazodanowe_wyklad_2011_2012\2012_2013\abd_ado.net\przyklady_cz1\przyklady_ado_net_cz1\02przyklad Connection try\01 Connection SQLSERVER localhost\obj\x86\Debug\01 Connection SQLSERVER localhost.exe
+D:\_ZAJECIA_DYDAKTYCZNE\_UG_aplikacje_bazodanowe_wyklad_2011_2012\2012_2013\abd_ado.net\przyklady_cz1\przyklady_ado_net_cz1\02przyklad Connection try\01 Connection SQLSERVER localhost\obj\x86\Debug\01 Connection SQLSERVER localhost.pdb
