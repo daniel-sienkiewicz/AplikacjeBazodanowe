@@ -22,5 +22,26 @@ namespace WindowsFormsApplication1
             Form1 connectionMode = new Form1();
             connectionMode.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Form8 connectionMode = new Form8();
+            connectionMode.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Form10 connectionMode = new Form10();
+            connectionMode.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Form9 connectionMode = new Form9();
+            connectionMode.Show();
+        }
     }
 }

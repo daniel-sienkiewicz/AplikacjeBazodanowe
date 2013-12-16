@@ -21,8 +21,7 @@ namespace WindowsFormsApplication1
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'dsienkiewiczDataSet.cars' table. You can move, or remove it, as needed.
-            this.carsTableAdapter.Fill(this.dsienkiewiczDataSet.cars);
+
 
         }
 
