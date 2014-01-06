@@ -30,11 +30,10 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form10));
-            this.label1 = new System.Windows.Forms.Label();
-            this.dsienkiewiczDataSet = new WindowsFormsApplication1.dsienkiewiczDataSet();
+            this.dataSet1 = new WindowsFormsApplication1.DataSet1();
             this.carsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.carsTableAdapter = new WindowsFormsApplication1.dsienkiewiczDataSetTableAdapters.carsTableAdapter();
-            this.tableAdapterManager = new WindowsFormsApplication1.dsienkiewiczDataSetTableAdapters.TableAdapterManager();
+            this.carsTableAdapter = new WindowsFormsApplication1.DataSet1TableAdapters.carsTableAdapter();
+            this.tableAdapterManager = new WindowsFormsApplication1.DataSet1TableAdapters.TableAdapterManager();
             this.carsBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
@@ -56,34 +55,24 @@
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dsienkiewiczDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.carsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.carsBindingNavigator)).BeginInit();
             this.carsBindingNavigator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.carsDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // dataSet1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(356, 25);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 42);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Cars";
-            // 
-            // dsienkiewiczDataSet
-            // 
-            this.dsienkiewiczDataSet.DataSetName = "dsienkiewiczDataSet";
-            this.dsienkiewiczDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.dataSet1.DataSetName = "DataSet1";
+            this.dataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // carsBindingSource
             // 
             this.carsBindingSource.DataMember = "cars";
-            this.carsBindingSource.DataSource = this.dsienkiewiczDataSet;
+            this.carsBindingSource.DataSource = this.dataSet1;
             // 
             // carsTableAdapter
             // 
@@ -95,7 +84,7 @@
             this.tableAdapterManager.car_dealerTableAdapter = null;
             this.tableAdapterManager.carsTableAdapter = this.carsTableAdapter;
             this.tableAdapterManager.customerTableAdapter = null;
-            this.tableAdapterManager.UpdateOrder = WindowsFormsApplication1.dsienkiewiczDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            this.tableAdapterManager.UpdateOrder = WindowsFormsApplication1.DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
             // carsBindingNavigator
             // 
@@ -123,8 +112,8 @@
             this.carsBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.carsBindingNavigator.Name = "carsBindingNavigator";
             this.carsBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.carsBindingNavigator.Size = new System.Drawing.Size(881, 25);
-            this.carsBindingNavigator.TabIndex = 1;
+            this.carsBindingNavigator.Size = new System.Drawing.Size(872, 25);
+            this.carsBindingNavigator.TabIndex = 0;
             this.carsBindingNavigator.Text = "bindingNavigator1";
             // 
             // bindingNavigatorMoveFirstItem
@@ -232,13 +221,12 @@
             this.dataGridViewTextBoxColumn4,
             this.dataGridViewTextBoxColumn5,
             this.dataGridViewTextBoxColumn6,
-            this.dataGridViewTextBoxColumn7,
-            this.dataGridViewTextBoxColumn8});
+            this.dataGridViewTextBoxColumn7});
             this.carsDataGridView.DataSource = this.carsBindingSource;
-            this.carsDataGridView.Location = new System.Drawing.Point(12, 70);
+            this.carsDataGridView.Location = new System.Drawing.Point(44, 61);
             this.carsDataGridView.Name = "carsDataGridView";
-            this.carsDataGridView.Size = new System.Drawing.Size(855, 220);
-            this.carsDataGridView.TabIndex = 2;
+            this.carsDataGridView.Size = new System.Drawing.Size(751, 220);
+            this.carsDataGridView.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -273,29 +261,33 @@
             // 
             // dataGridViewTextBoxColumn6
             // 
-            this.dataGridViewTextBoxColumn6.DataPropertyName = "yop";
-            this.dataGridViewTextBoxColumn6.HeaderText = "yop";
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "id_customer";
+            this.dataGridViewTextBoxColumn6.HeaderText = "id_customer";
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
             // 
             // dataGridViewTextBoxColumn7
             // 
-            this.dataGridViewTextBoxColumn7.DataPropertyName = "id_customer";
-            this.dataGridViewTextBoxColumn7.HeaderText = "id_customer";
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "id_car_dealer";
+            this.dataGridViewTextBoxColumn7.HeaderText = "id_car_dealer";
             this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
             // 
-            // dataGridViewTextBoxColumn8
+            // label1
             // 
-            this.dataGridViewTextBoxColumn8.DataPropertyName = "id_car_dealer";
-            this.dataGridViewTextBoxColumn8.HeaderText = "id_car_dealer";
-            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Location = new System.Drawing.Point(382, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(77, 33);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Cars";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(792, 296);
+            this.button1.Location = new System.Drawing.Point(720, 287);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 3;
-            this.button1.Text = "Back";
+            this.button1.Text = "back";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -303,15 +295,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(881, 340);
+            this.ClientSize = new System.Drawing.Size(872, 360);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.carsDataGridView);
             this.Controls.Add(this.carsBindingNavigator);
-            this.Controls.Add(this.label1);
             this.Name = "Form10";
             this.Text = "Form10";
             this.Load += new System.EventHandler(this.Form10_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dsienkiewiczDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.carsBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.carsBindingNavigator)).EndInit();
             this.carsBindingNavigator.ResumeLayout(false);
@@ -324,11 +316,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private dsienkiewiczDataSet dsienkiewiczDataSet;
+        private DataSet1 dataSet1;
         private System.Windows.Forms.BindingSource carsBindingSource;
-        private dsienkiewiczDataSetTableAdapters.carsTableAdapter carsTableAdapter;
-        private dsienkiewiczDataSetTableAdapters.TableAdapterManager tableAdapterManager;
+        private DataSet1TableAdapters.carsTableAdapter carsTableAdapter;
+        private DataSet1TableAdapters.TableAdapterManager tableAdapterManager;
         private System.Windows.Forms.BindingNavigator carsBindingNavigator;
         private System.Windows.Forms.ToolStripButton bindingNavigatorAddNewItem;
         private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
@@ -350,7 +341,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
     }
 }

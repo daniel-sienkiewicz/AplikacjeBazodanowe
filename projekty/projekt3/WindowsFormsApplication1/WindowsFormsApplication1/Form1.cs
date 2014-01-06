@@ -29,15 +29,5 @@ namespace WindowsFormsApplication1
             Form7 connectionMode = new Form7();
             connectionMode.Show();
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

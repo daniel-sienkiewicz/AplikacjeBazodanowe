@@ -65,8 +65,6 @@ namespace WindowsFormsApplication1
                         carDealerBox.Items.Add(name);
                     }
                 }
-
-                sqlConn.Close();
             }
         }
 

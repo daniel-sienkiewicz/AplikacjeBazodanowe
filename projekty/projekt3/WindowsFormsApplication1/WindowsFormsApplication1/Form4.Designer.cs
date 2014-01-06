@@ -38,8 +38,6 @@
             this.modelBox = new System.Windows.Forms.TextBox();
             this.capacityBox = new System.Windows.Forms.TextBox();
             this.priceBox = new System.Windows.Forms.TextBox();
-            this.customerBox = new System.Windows.Forms.TextBox();
-            this.dealerBox = new System.Windows.Forms.TextBox();
             this.customerName = new System.Windows.Forms.TextBox();
             this.customerLastName = new System.Windows.Forms.TextBox();
             this.dealerName = new System.Windows.Forms.TextBox();
@@ -56,6 +54,8 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
+            this.dilerBox = new System.Windows.Forms.ComboBox();
+            this.custBox = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -66,7 +66,6 @@
             this.label1.Size = new System.Drawing.Size(48, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "New Car";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -143,20 +142,6 @@
             this.priceBox.Name = "priceBox";
             this.priceBox.Size = new System.Drawing.Size(100, 20);
             this.priceBox.TabIndex = 9;
-            // 
-            // customerBox
-            // 
-            this.customerBox.Location = new System.Drawing.Point(93, 182);
-            this.customerBox.Name = "customerBox";
-            this.customerBox.Size = new System.Drawing.Size(100, 20);
-            this.customerBox.TabIndex = 10;
-            // 
-            // dealerBox
-            // 
-            this.dealerBox.Location = new System.Drawing.Point(93, 208);
-            this.dealerBox.Name = "dealerBox";
-            this.dealerBox.Size = new System.Drawing.Size(100, 20);
-            this.dealerBox.TabIndex = 11;
             // 
             // customerName
             // 
@@ -262,7 +247,7 @@
             // customer
             // 
             this.customer.AutoSize = true;
-            this.customer.Location = new System.Drawing.Point(216, 107);
+            this.customer.Location = new System.Drawing.Point(231, 107);
             this.customer.Name = "customer";
             this.customer.Size = new System.Drawing.Size(55, 13);
             this.customer.TabIndex = 24;
@@ -296,11 +281,29 @@
             this.label14.TabIndex = 27;
             this.label14.Text = "Insert";
             // 
+            // dilerBox
+            // 
+            this.dilerBox.FormattingEnabled = true;
+            this.dilerBox.Location = new System.Drawing.Point(93, 209);
+            this.dilerBox.Name = "dilerBox";
+            this.dilerBox.Size = new System.Drawing.Size(121, 21);
+            this.dilerBox.TabIndex = 28;
+            // 
+            // custBox
+            // 
+            this.custBox.FormattingEnabled = true;
+            this.custBox.Location = new System.Drawing.Point(93, 182);
+            this.custBox.Name = "custBox";
+            this.custBox.Size = new System.Drawing.Size(121, 21);
+            this.custBox.TabIndex = 29;
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(590, 297);
+            this.Controls.Add(this.custBox);
+            this.Controls.Add(this.dilerBox);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
@@ -317,8 +320,6 @@
             this.Controls.Add(this.dealerName);
             this.Controls.Add(this.customerLastName);
             this.Controls.Add(this.customerName);
-            this.Controls.Add(this.dealerBox);
-            this.Controls.Add(this.customerBox);
             this.Controls.Add(this.priceBox);
             this.Controls.Add(this.capacityBox);
             this.Controls.Add(this.modelBox);
@@ -331,6 +332,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form4";
             this.Text = "Insert";
+            this.Load += new System.EventHandler(this.Form4_Load_1);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -348,8 +350,6 @@
         private System.Windows.Forms.TextBox modelBox;
         private System.Windows.Forms.TextBox capacityBox;
         private System.Windows.Forms.TextBox priceBox;
-        private System.Windows.Forms.TextBox customerBox;
-        private System.Windows.Forms.TextBox dealerBox;
         private System.Windows.Forms.TextBox customerName;
         private System.Windows.Forms.TextBox customerLastName;
         private System.Windows.Forms.TextBox dealerName;
@@ -366,5 +366,7 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.ComboBox dilerBox;
+        private System.Windows.Forms.ComboBox custBox;
     }
 }

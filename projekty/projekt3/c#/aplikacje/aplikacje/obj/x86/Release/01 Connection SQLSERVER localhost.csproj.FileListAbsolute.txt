@@ -1,5 +1,0 @@
-D:\_ZAJECIA_DYDAKTYCZNE\_UG_aplikacje_bazodanowe_wyklad_2011_2012\abd_08_09_ADO.NET\przyklady2\przyklady_ado_net\01 Connection SQLSERVER localhost\bin\Release\01 Connection SQLSERVER localhost.exe
-D:\_ZAJECIA_DYDAKTYCZNE\_UG_aplikacje_bazodanowe_wyklad_2011_2012\abd_08_09_ADO.NET\przyklady2\przyklady_ado_net\01 Connection SQLSERVER localhost\bin\Release\01 Connection SQLSERVER localhost.pdb
-D:\_ZAJECIA_DYDAKTYCZNE\_UG_aplikacje_bazodanowe_wyklad_2011_2012\abd_08_09_ADO.NET\przyklady2\przyklady_ado_net\01 Connection SQLSERVER localhost\obj\x86\Release\ResolveAssemblyReference.cache
-D:\_ZAJECIA_DYDAKTYCZNE\_UG_aplikacje_bazodanowe_wyklad_2011_2012\abd_08_09_ADO.NET\przyklady2\przyklady_ado_net\01 Connection SQLSERVER localhost\obj\x86\Release\01 Connection SQLSERVER localhost.exe
-D:\_ZAJECIA_DYDAKTYCZNE\_UG_aplikacje_bazodanowe_wyklad_2011_2012\abd_08_09_ADO.NET\przyklady2\przyklady_ado_net\01 Connection SQLSERVER localhost\obj\x86\Release\01 Connection SQLSERVER localhost.pdb

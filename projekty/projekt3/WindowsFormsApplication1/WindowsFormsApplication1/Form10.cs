@@ -20,14 +20,14 @@ namespace WindowsFormsApplication1
         {
             this.Validate();
             this.carsBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.dsienkiewiczDataSet);
+            this.tableAdapterManager.UpdateAll(this.dataSet1);
 
         }
 
         private void Form10_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'dsienkiewiczDataSet.cars' table. You can move, or remove it, as needed.
-            this.carsTableAdapter.Fill(this.dsienkiewiczDataSet.cars);
+            // TODO: This line of code loads data into the 'dataSet1.cars' table. You can move, or remove it, as needed.
+            this.carsTableAdapter.Fill(this.dataSet1.cars);
 
         }
 

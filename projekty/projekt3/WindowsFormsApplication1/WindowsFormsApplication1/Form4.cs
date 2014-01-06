@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace WindowsFormsApplication1
 {
@@ -17,11 +18,6 @@ namespace WindowsFormsApplication1
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             String make, model, customer, carDealer; 
@@ -31,8 +27,8 @@ namespace WindowsFormsApplication1
             {
                 make = makeBox.Text;
                 model = modelBox.Text;
-                customer = customerBox.Text;
-                carDealer = dealerBox.Text;
+                customer = custBox.Text;
+                carDealer = dilerBox.Text;
                 price = Convert.ToDouble(priceBox.Text);
                 capacity = Convert.ToDouble(capacityBox.Text);
                 int idCustomer = cMode.idCustomer(customer);
@@ -106,6 +102,36 @@ namespace WindowsFormsApplication1
             catch
             {
                 MessageBox.Show("Something went wrong!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void Form4_Load_1(object sender, EventArgs e)
+        {
+            using (SqlConnection sqlConn = new SqlConnection("Data Source=eos.inf.ug.edu.pl; Initial Catalog=dsienkiewicz;Persist Security Info=True;User ID=dsienkiewicz;Password=206358"))
+            {
+                sqlConn.Open();
+
+                SqlCommand sqlCmd1 = new SqlCommand("SELECT name FROM customer;", sqlConn);
+                using (SqlDataReader saReader1 = sqlCmd1.ExecuteReader())
+                {
+                    while (saReader1.Read())
+                    {
+                        string name = saReader1.GetString(0);
+                        custBox.Items.Add(name);
+                    }
+                }
+
+                SqlCommand sqlCmd2 = new SqlCommand("SELECT name FROM car_dealer;", sqlConn);
+                using (SqlDataReader saReader2 = sqlCmd2.ExecuteReader())
+                {
+                    while (saReader2.Read())
+                    {
+                        string name = saReader2.GetString(0);
+                        dilerBox.Items.Add(name);
+                    }
+                }
+
+                sqlConn.Close();
             }
         }
     }

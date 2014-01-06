@@ -91,6 +91,9 @@ namespace WindowsFormsApplication1
                 }
                 sqlConn.Close();
             }
+
+            carBox.Items.Clear();
+            Form5_Load(sender, e);
         }
 
         private void button3_Click(object sender, EventArgs e)

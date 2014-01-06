@@ -1,5 +1,0 @@
-D:\c#\aplikacje\aplikacje\obj\x86\Debug\01 Connection SQLSERVER localhost.exe
-D:\c#\aplikacje\aplikacje\obj\x86\Debug\01 Connection SQLSERVER localhost.pdb
-D:\c#\aplikacje\aplikacje\bin\Debug\01 Connection SQLSERVER localhost.exe
-D:\c#\aplikacje\aplikacje\bin\Debug\01 Connection SQLSERVER localhost.pdb
-D:\c#\aplikacje\aplikacje\obj\x86\Debug\ResolveAssemblyReference.cache

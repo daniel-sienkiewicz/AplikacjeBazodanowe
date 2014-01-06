@@ -33,5 +33,15 @@ namespace WindowsFormsApplication1.Properties {
                 return ((string)(this["dsienkiewiczConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=eos.inf.ug.edu.pl;User ID=dsienkiewicz;Password=206358")]
+        public string ConnectionString1 {
+            get {
+                return ((string)(this["ConnectionString1"]));
+            }
+        }
     }
 }

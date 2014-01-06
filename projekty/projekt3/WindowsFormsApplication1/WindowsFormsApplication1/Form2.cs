@@ -19,27 +19,11 @@ namespace WindowsFormsApplication1
             InitializeComponent();
         }
 
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
-
-        }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             this.Visible = false;
             Form3 connectionMode = new Form3();
             connectionMode.Show();
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void button6_Click(object sender, EventArgs e)
