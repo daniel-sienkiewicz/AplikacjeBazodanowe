@@ -93,6 +93,8 @@ namespace WindowsFormsApplication1
             }
 
             carBox.Items.Clear();
+            customerBox.Items.Clear();
+            carDealerBox.Items.Clear();
             Form5_Load(sender, e);
         }
 
@@ -119,6 +121,8 @@ namespace WindowsFormsApplication1
                     sqlConn.Close();
             }
 
+            carBox.Items.Clear();
+            carDealerBox.Items.Clear();
             customerBox.Items.Clear();
             Form5_Load(sender, e);
         }
@@ -147,6 +151,8 @@ namespace WindowsFormsApplication1
                 sqlConn.Close();
             }
 
+            carBox.Items.Clear();
+            customerBox.Items.Clear();
             carDealerBox.Items.Clear();
             Form5_Load(sender, e);
         }
